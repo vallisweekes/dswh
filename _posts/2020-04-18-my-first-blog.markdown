@@ -1,0 +1,6 @@
+---
+
+permalink : "myfirst"
+---
+
+Some Content
