@@ -12,15 +12,18 @@ layout: "wrapper"
           box-sizing: border-box;
         }
         .row{
-          margin-left: 5%;
+          align-content: center;
+         margin-top: 12%;
+        
          
         }
         .card{
-          padding: 2%;
-          margin-left:15% ; margin-top: 2%;
+          padding: 0%;
+          margin-left:4%;
+          margin-bottom: 5%;
           box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-          /* width: 35%; */
-          height: 5 50%;
+         
+        
         }
         .car{
          
@@ -29,13 +32,15 @@ layout: "wrapper"
           float: right;
         }
         
-        span{
-          color: darkslategrey;
-           font-size: 200%;
-          font-family: 'Roboto', sans-serif;
-             font-weight: 300; 
-          font-size-adjust: inherit;;
+     
           
+        h1{
+          font-size:400%;
+          font-size-adjust: inherit;
+          font-weight: 600;
+          margin-right: 10%;
+          float: right;
+          margin-top: 5%; 
         }
         
        
@@ -46,15 +51,17 @@ layout: "wrapper"
         </style>
 
 
-<div style="background-color: white;">
 
-  <div style="margin-bottom: 1%; margin-left: 20%; margin-right: 5%;">
-  <div class="avatar"><img src="https://media-exp1.licdn.com/dms/image/C5103AQGYzZ6pgFqXSw/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=hxYZ75Y_vG-zy1vTogA8OcGj_4Z-Oq6TYpkpSVTme1I"
-    alt="avatar mx-auto white" class="rounded-circle img-fluid" style="width: 8%;  float: left;     
-">
-</div>
-  <a href="#blog" style="margin-left:5% " > <span class="top"  >Data Science With Harshit</span></a>
-</div>
+<div style="background-color: black; height: inherit; height: 300px;   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+  <div style="margin-left: 5%; " >
+        <img src="https://media-exp1.licdn.com/dms/image/C5103AQGYzZ6pgFqXSw/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=hxYZ75Y_vG-zy1vTogA8OcGj_4Z-Oq6TYpkpSVTme1I"
+          alt="avatar mx-auto white" class="rounded-circle img-fluid" style="width: 12%;  margin-top: 2%; float: left;  margin-left:5%   ">
+   
+       <a href="#blog" style="color: white;"><h1> Data Science With Harshit</h1></a>
+  </div>
+
+    
+  </div>
 
 
   <!-- Grid row -->
@@ -74,8 +81,8 @@ style="background-image: url(/dswh/assets/img/python.png);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Data Science</h5>
     <h3 class="card-title pt-2"><strong>Data Science</strong></h3>
     
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[7].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[3].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[7].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[3].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -85,7 +92,7 @@ style="background-image: url(/dswh/assets/img/python.png);
  <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
 <!-- Card -->
 <div class="card card-image"
-style="background-image: url(/dswh//assets/img/math.jpg);
+style="background-image: url(/dswh/assets/img/math.jpg);
    ">
 
 <!-- Content -->
@@ -94,8 +101,8 @@ style="background-image: url(/dswh//assets/img/math.jpg);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Mathematics</h5>
     <h3 class="card-title pt-2"><strong>Mathematics</strong></h3>
  
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[6].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[2].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[6].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[2].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -108,7 +115,7 @@ style="background-image: url(/dswh//assets/img/math.jpg);
 <!-- Card -->
 
 <div class="card card-image"
-style="background-image: url(/dswh//assets/img/py.jpg); background-repeat: no-repeat; background-size: cover;">
+style="background-image: url(/dswh/assets/img/py.jpg); background-repeat: no-repeat; background-size: cover;">
 
 <!-- Content -->
 <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
@@ -116,8 +123,8 @@ style="background-image: url(/dswh//assets/img/py.jpg); background-repeat: no-re
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Python</h5>
     <h3 class="card-title pt-2"><strong>Python</strong></h3>
  
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[5].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[1].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[5].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[1].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -128,7 +135,7 @@ style="background-image: url(/dswh//assets/img/py.jpg); background-repeat: no-re
  <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
 <!-- Card -->
 <div class="card card-image"
-style="background-image: url(/dswh//assets/img/ml.jpeg);
+style="background-image: url(/dswh/assets/img/ml.jpeg);
     ">
 
 <!-- Content -->
@@ -137,8 +144,8 @@ style="background-image: url(/dswh//assets/img/ml.jpeg);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Machine Learning</h5>
     <h3 class="card-title pt-2"><strong>Machine Learning</strong></h3>
     
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[4].url}}"><i class="fas fa-clone left"></i> Projects</a>
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[0].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[4].url}}"><i class="fas fa-clone left"></i> Projects</a>
+    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[0].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
