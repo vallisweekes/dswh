@@ -6,6 +6,7 @@ layout: "wrapper"
     
 
     .card-wrapper{
+        float: left;
         width: 20%;
         margin-left: 3%;
         margin-top: 3%;
@@ -23,11 +24,9 @@ layout: "wrapper"
 </style>
 
 
-    <a  href="#"style=" color: darkslategrey;"><h1  style="margin-left: 8%;"><b>{{page.title}}</b></h1></a>
+    <a  href="#"style=" color: darkslategrey;"><h1  style="margin-top:1% ; margin-left: 8%;"><b>{{page.title}}</b></h1></a>
         <div class="row" >
-                <!-- Grid column -->
-                <!-- <div class="col-md-6 mt-md-0 mt-3" > -->
-            <!-- Rotating card -->
+              
                     <div class="card-wrapper" >
                         <div id="card-2" class="card card-rotating text-center">
                     
@@ -48,7 +47,7 @@ layout: "wrapper"
                             <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
                             <h4 class="mb-3">{{page.title1}}</h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a class="link-text" href="{{site.posts[page.x1].url}}">
+                            <a class="link-text" href="/dswh{{page.x1}}">
                                 <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
                             </a>
                     
@@ -62,9 +61,7 @@ layout: "wrapper"
                         <!-- </div> -->
                     </div>
                 </div>
-                    <!-- Rotating card -->
-                    <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-                     <!-- Rotating card -->
+                   
                      <div class="card-wrapper" >
                             <div id="card-2" class="card card-rotating text-center">
                         
@@ -85,7 +82,7 @@ layout: "wrapper"
                                 <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
                                 <h4 class="mb-3">{{page.title2}}</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="{{site.posts[page.x2].url}}">
+                                <a class="link-text" href="/dswh{{site.posts[page.x2].url}}">
                                     <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
                                 </a>
                         
@@ -103,9 +100,7 @@ layout: "wrapper"
                     </div>
         <!-- </div> -->
                     <!-- <div class="row"> -->
-                            <!-- Grid column -->
-                            <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-                         <!-- Rotating card -->
+                          
                     <div class="card-wrapper" >
                             <div id="card-2" class="card card-rotating text-center">
                         
@@ -126,7 +121,7 @@ layout: "wrapper"
                                 <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
                                 <h4 class="mb-3">{{page.title3}}</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="{{site.posts[page.x3].url}}">
+                                <a class="link-text" href="/dswh{{site.posts[page.x3].url}}">
                                     <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
                                 </a>
                         
@@ -139,10 +134,7 @@ layout: "wrapper"
                         
                             </div>
                         </div></div>
-                        <!-- Rotating card -->
-
-                        <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-                         <!-- Rotating card -->
+                      
                     <div class="card-wrapper" >
                             <div id="card-2" class="card card-rotating text-center">
                         
@@ -163,7 +155,7 @@ layout: "wrapper"
                                 <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
                                 <h4 class="mb-3">{{page.title4}}</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="{{site.posts[page.x4].url}}">
+                                <a class="link-text" href="/dswh{{site.posts[page.x4].url}}">
                                     <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
                                 </a>
                         
@@ -180,64 +172,6 @@ layout: "wrapper"
 
                     </div>
         </div>
-        <!-- <div class="card mb-3" style="max-width: 1000px; margin-left: 10%; " >
-            <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src={{page.img1}} class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title"><a href="{{site.posts[page.x1].url}}">{{page.title1}}</a></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            </div>
-        </div>
-    
-        <div class="card mb-3" style="max-width: 1000px; margin-left: 10%; " >
-            <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="{{page.img2}}" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title"><a href="{{site.posts[page.x2].url}}" >{{page.title2}}</a></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            </div>
-        </div>
-    
-        <div class="card mb-3" style="max-width: 1000px; margin-left: 10%; " >
-            <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="{{page.img3}}" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title"> <a href="{{site.posts[page.x3].url}}" >{{page.title3}}</a></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            </div>
-        </div>
-    
-        <div class="card mb-3" style="max-width: 1000px; margin-left: 10%; " >
-            <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="{{page.img4}}" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                <h5 class="card-title"><a href="{{site.posts[page.x4].url}}" >{{page.title4}}</a></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            </div>
-        </div> -->
+       
     </div>
     

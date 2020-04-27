@@ -26,21 +26,43 @@
     </style>
 </head>
 <body>
-    <div class="header"  style=" background: darkslategrey; box-shadow: 0 2px 2px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  margin-bottom: 2%;">
-       <a href="/index"> <img style="  width: 15%;"  src="https://media-exp1.licdn.com/dms/image/C5116AQHYH8Xn4A5Pyg/profile-displaybackgroundimage-shrink_200_800/0?e=1593043200&v=beta&t=u_vaDZ1r-FSzMaAex12jboVcSwVp2QbHLPblK0VOpa0 " alt="">
-       </a>
-        <a class="navbar-brand" href="#contact"   style="margin-left: 3%; float: right;"><p style="color: white; font-size:1.5em; "> Contact</p></a>
-        <a class="navbar-brand" href="/about"  style="margin-left: 3%; float: right;"><p style="color:white; font-size:1.5em;"> About</p></a>
-        <a class="navbar-brand" href="/index/#blog"   style="margin-left: 1%; float: right;"><p style="color: white; font-size:1.5em; "> Posts</p></a>
-      
-</div>
-  
+   
+
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background: darkslategrey">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="/dswh">
+                <img src="https://media-exp1.licdn.com/dms/image/C5116AQHYH8Xn4A5Pyg/profile-displaybackgroundimage-shrink_200_800/0?e=1593043200&v=beta&t=u_vaDZ1r-FSzMaAex12jboVcSwVp2QbHLPblK0VOpa0 " height="30" alt="mdb logo">
+              </a>
+            <ul class="navbar-nav mr-auto mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="/dswh">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dswh/#blog">Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dswh/about">About</a>
+              </li>
+              
+            </ul>
+            <form class="form-inline">
+                <div class="md-form my-0">
+                    <a class="nav-link " style="color: white;" onclick="display()"  href="#contact">Contact</a>
+                </div>
+              </form>
+          </div>
+        </nav>
+
     {{content}}
 
 
-<div class="contact" id="contact" style="margin-top:10% ; bottom: 0%;  background: darkslategrey;">
+<div class="contact" id="contact" style="margin-top:5% ; bottom: 0%;  background-color: darkslategrey;">
     <!-- Footer -->
-<footer class="page-footer " style=" background: darkslategrey">
+<footer class="page-footer" style=" color: white">
 
 <!-- Footer Links -->
 <div class="container-fluid text-center text-md-left" style="padding: 1%;">
@@ -160,7 +182,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script></script>
+<script>
+   document.getElementById('contact').style.display='none';
+  function display(){
+    document.getElementById('contact').style.display='block';
+  }
+</script>
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
