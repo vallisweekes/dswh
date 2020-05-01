@@ -3,6 +3,126 @@ layout: "wrapper"
 
 ---
 <style>
+    /* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+} */
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+} */
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #1C2331!important;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
     
 
     .card-wrapper{
@@ -14,164 +134,56 @@ layout: "wrapper"
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     }
 
-    .row{
-        margin-left: 5%;
-    }
-   
+  .navbar{
+    background: #1C2331!important;
+  }
+
     .card:hover{
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 </style>
 
+    
 
-    <a  href="#"style=" color: darkslategrey;"><h1  style="margin-top:1% ; margin-left: 8%;"><b>{{page.title}}</b></h1></a>
-        <div class="row" >
-              
-                    <div class="card-wrapper" >
-                        <div id="card-2" class="card card-rotating text-center">
-                    
-                        <!--Front Side-->
-                        <div class="face front">
-                    
-                            <!-- Image-->
-                            <div class="view overlay">
-                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.jpg" alt="Example photo">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                            </div>
-                    
-                            <!--Content-->
-                            <div class="card-body">
-                    
-                            <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
-                            <h4 class="mb-3">{{page.title1}}</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a class="link-text" href="/dswh{{page.x1}}">
-                                <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                            </a>
-                    
-                            </div>
-                    
-                        </div>
-                        <!--Front Side-->
-                    
-                        
-                    
-                        <!-- </div> -->
-                    </div>
+
+    <a  href="#"style=" color: darkslategrey;"><h1  style="margin-top:10% ; margin-bottom:5% ; margin-left: 0%;"><b>{{page.title}}</b></h1></a>
+
+    <div class="main">
+            
+            <ul class="cards">
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">{{page.title1}}</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <a class="link-text" href="/dswh{{page.x1}}"> <button class="btn card_btn">Read More</button></a>
+                  </div>
                 </div>
-                   
-                     <div class="card-wrapper" >
-                            <div id="card-2" class="card card-rotating text-center">
-                        
-                            <!--Front Side-->
-                            <div class="face front">
-                        
-                                <!-- Image-->
-                                <div class="view overlay">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.jpg" alt="Example photo">
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                                </div>
-                        
-                                <!--Content-->
-                                <div class="card-body">
-                        
-                                <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
-                                <h4 class="mb-3">{{page.title2}}</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="/dswh{{site.posts[page.x2].url}}">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                        
-                                </div>
-                        
-                            <!-- </div> -->
-                            <!--Front Side-->
-                        
-                            
-                        
-                            </div>
-                        </div>
-                        <!-- Rotating card -->
-
-                    </div>
-        <!-- </div> -->
-                    <!-- <div class="row"> -->
-                          
-                    <div class="card-wrapper" >
-                            <div id="card-2" class="card card-rotating text-center">
-                        
-                            <!--Front Side-->
-                            <div class="face front">
-                        
-                                <!-- Image-->
-                                <div class="view overlay">
-                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.jpg" alt="Example photo">
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
-                                </div>
-                        
-                                <!--Content-->
-                                <div class="card-body">
-                        
-                                <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
-                                <h4 class="mb-3">{{page.title3}}</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="/dswh{{site.posts[page.x3].url}}">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                        
-                                </div>
-                        
-                            <!-- </div> -->
-                            <!--Front Side-->
-                        
-                            
-                        
-                            </div>
-                        </div></div>
-                      
-                    <div class="card-wrapper" >
-                            <div id="card-2" class="card card-rotating text-center">
-                        
-                            <!--Front Side-->
-                            <div class="face front">
-                        
-                                <!-- Image-->
-                                    <div class="view overlay">
-                                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.jpg" alt="Example photo">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                    </div>
-                            
-                                <!--Content-->
-                                <div class="card-body">
-                        
-                                <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
-                                <h4 class="mb-3">{{page.title4}}</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a class="link-text" href="/dswh{{site.posts[page.x4].url}}">
-                                    <h5>Read more <i class="fas fa-angle-double-right"></i></h5>
-                                </a>
-                        
-                                </div>
-                        
-                            </div>
-                            <!--Front Side-->
-                        
-                            
-                        
-                            <!-- </div> -->
-                        </div>
-                        <!-- Rotating card -->
-
-                    </div>
-        </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">{{page.title2}}</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <a class="link-text" href="/dswh{{site.posts[13].url}}"> <button class="btn card_btn">Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">{{page.title3}}</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <a class="link-text" href="/dswh{{site.posts[14].url}}"> <button class="btn card_btn">Read More</button></a>
+                  </div>
+                </div>
+              </li>
+             
+            </ul>
+</div>
+          
        
-    </div>
     

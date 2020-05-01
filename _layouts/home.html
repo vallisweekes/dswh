@@ -19,10 +19,9 @@ layout: "wrapper"
         }
         .card{
           padding: 0%;
-          margin-left:4%;
-          margin-bottom: 5%;
+          margin: 5%;
           box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-         
+          
         
         }
         .car{
@@ -51,25 +50,151 @@ layout: "wrapper"
         </style>
 
 
+<!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+  
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
 
-<div style="background-color: black; height: inherit; height: 300px;   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
-  <div style="margin-left: 5%; " >
-        <img src="https://media-exp1.licdn.com/dms/image/C5103AQGYzZ6pgFqXSw/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=hxYZ75Y_vG-zy1vTogA8OcGj_4Z-Oq6TYpkpSVTme1I"
-          alt="avatar mx-auto white" class="rounded-circle img-fluid" style="width: 12%;  margin-top: 2%; float: left;  margin-left:5%   ">
-   
-       <a href="#blog" style="color: white;"><h1> Data Science With Harshit</h1></a>
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+            <source src="https://mdbootstrap.com/img/video/city.mp4" type="video/mp4" >
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 > <strong>Data Science With Harshit</strong>
+                  </h1>
+    
+                  <p>
+                    <strong>by Harshit Tyagi</strong>
+                  </p>
+              <a  href="#blog" class="btn btn-outline-white btn-lg">Go to posts
+                <i class="fas fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+                <h1 class="mb-4">
+                    <strong>Data Science With Harshit</strong>
+                  </h1>
+    
+                  <p>
+                    <strong>by Harshit Tyagi</strong>
+                  </p>
+
+                  <a  href="#blog" class="btn btn-outline-white btn-lg">Go to posts
+                      <i class="fas fa-graduation-cap ml-2"></i>
+                    </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+              <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Data Science With Harshit</strong>
+              </h1>
+
+              <p>
+                <strong>by Harshit Tyagi</strong>
+              </p>
+
+             
+
+              <a  href="#blog" class="btn btn-outline-white btn-lg">Go to posts
+                  <i class="fas fa-graduation-cap ml-2"></i>
+                </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
   </div>
 
     
-  </div>
 
-
+  
+  <div style="text-align: center; margin-top: 8%; float: left; margin-left: 5%;"><h1>Posts</h1></div><br><br>
   <!-- Grid row -->
-<div class="row"  id="blog">
-
+<div class="container"  id="blog" >
+   
     <!-- Grid column -->
     <!-- <div class="col-md-6 mt-md-0 mt-4"> -->
-
+      <br> <br> <br>
  <!-- Card -->
 <div class="card card-image"
 style="background-image: url(/dswh/assets/img/python.png);
@@ -81,8 +206,8 @@ style="background-image: url(/dswh/assets/img/python.png);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Data Science</h5>
     <h3 class="card-title pt-2"><strong>Data Science</strong></h3>
     
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[7].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[3].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[7].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[3].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -101,8 +226,8 @@ style="background-image: url(/dswh/assets/img/math.jpg);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Mathematics</h5>
     <h3 class="card-title pt-2"><strong>Mathematics</strong></h3>
  
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[6].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[2].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[6].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[2].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -123,8 +248,8 @@ style="background-image: url(/dswh/assets/img/py.jpg); background-repeat: no-rep
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Python</h5>
     <h3 class="card-title pt-2"><strong>Python</strong></h3>
  
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[5].url}}"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[1].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[5].url}}"><i class="fas fa-clone left"></i> Projects</a>
+      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[1].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
@@ -144,8 +269,8 @@ style="background-image: url(/dswh/assets/img/ml.jpeg);
     <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Machine Learning</h5>
     <h3 class="card-title pt-2"><strong>Machine Learning</strong></h3>
     
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[4].url}}"><i class="fas fa-clone left"></i> Projects</a>
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh{{site.posts.[0].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
+    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[4].url}}"><i class="fas fa-clone left"></i> Projects</a>
+    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/dswh/{{site.posts.[0].url}}"><i class="fas fa-clone left"></i> Tuitorials</a>
   </div>
 </div>
 </div>
