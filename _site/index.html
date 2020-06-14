@@ -1,327 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
 
-    <title>Document</title>
-     <style>
-     
-      body{
-        margin: 0;
-        padding: 0;
-        
-        overflow-x: hidden; 
-      }
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- Font Awesome -->
+
+  <link rel="icon" href="/dswh/assets/img/LOGO_NEW.png" type="image/gif" height=30>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <title>Harshit Tyagi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-size: 16px;
+      background: #F7F8FC;
+      overflow-x: hidden;
+    }
+
+    html,
+    body {
+      height: 100%;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="header"  style=" background: darkslategrey; box-shadow: 0 2px 2px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  margin-bottom: 2%;">
-       <a href="/index"> <img style="  width: 15%;"  src="https://media-exp1.licdn.com/dms/image/C5116AQHYH8Xn4A5Pyg/profile-displaybackgroundimage-shrink_200_800/0?e=1593043200&v=beta&t=u_vaDZ1r-FSzMaAex12jboVcSwVp2QbHLPblK0VOpa0 " alt="">
-       </a>
-        <a class="navbar-brand" href="#contact"   style="margin-left: 3%; float: right;"><p style="color: white; font-size:1.5em; "> Contact</p></a>
-        <a class="navbar-brand" href="/about"  style="margin-left: 3%; float: right;"><p style="color:white; font-size:1.5em;"> About</p></a>
-        <a class="navbar-brand" href="/index/#blog"   style="margin-left: 1%; float: right;"><p style="color: white; font-size:1.5em; "> Posts</p></a>
-      
-</div>
-  
-    <style>HTML SCSSResult
-        /*--------------------
+
+
+  <header>
+
+    <!-- Navivation bar -->
+
+    <nav class="navbar--container">
+      <section class="navbar--container-inner">
+        <div class="navbar--logo">
+          <div class="navbar--logo-face"><img src="../assets/img/logoface.svg" /></div>
+          <div class="navbar--logo-dot"></div>
+          <div class="navbar--logo-lettering"><img src="../assets/img/logo-words.svg" /></div>
+        </div>
+
+        <div class="navbar--links-holder">
+          <ul class="navbar--links-flex">
+            <li><a href="#" class="active navbar--links-item">Home</a></li>
+            <li><a href="#" class="navbar--links-item">Blog</a></li>
+            <li><a href="#" class="navbar--links-item">Services</a></li>
+            <li><a href="#" class="navbar--links-item">About me</a></li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+
+    <!-- header content -->
+    <section class="header--content">
+      <div class="header--content-wrapper">
+        <div class="header--content-inner">
+          <section class="ct-l">
+            <section class="ct-l-wrapper ">
+              <div class="ct-l-heading">
+                <div class="ct-l-topline"></div>
+                <div>
+                  <h1>Data Science</h1>
+                </div>
+                <h4>WITH HARSHIT TYAGI</h4>
+                <div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="ct-l-min-nav">
+              <div class="ct-l-min-nav-inner">
+                <div class="ct-l-min-nav-content">
+                  <div class="ct-l-min-nav-inner">
+                    <ul class="flex-nav-row">
+                      <li>
+                        <div>BLOG</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PODCASTS</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PARTNERS</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="ct-l-min-vert">
+                  <div class="ct-l-min-vert-line"></div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="ct-m">
+            <div>
+              <img src="../assets/img/headerObj.svg" width="100%" />
+            </div>
+          </section>
+          <div class="ct-r">
+            <div class="ct-r-vert-one"></div>
+            <div class="ct-r-vert-two">
+              <div class="ct-r-vert-twitter"><img src="../assets/img/twitter.svg" alt=""></div>
+              <div class="ct-r-vert-youtube"><img src="../assets/img/youtube.svg" /></div>
+              <div class="ct-r-vert-instagram"><img src="../assets/img/instagram.svg" /></div>
+            </div>
+            <div class="ct-r-vert-three"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Navbar -->
+
+  <!-- Header-->
+
+
+
+
+
+
+  <link rel="stylesheet" href="../css/block-two.css">
+<link rel="stylesheet" href="../css/block-three.css">
+<link rel="stylesheet" href="../css/block-four.css">
+<link rel="stylesheet" href="../css/block-five.css">
+<style>
+  HTML SCSSResult
+
+  /*--------------------
         Body
         --------------------*/
-        *,
-        *::before,
-        *::after {
-          box-sizing: border-box;
-        }
-        .row{
-          margin-left: 5%;
-        }
-        .card{
-          padding: 2%;
-          margin-left: 5% ; margin-top: 2%;
-          box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-          width: 40%;
-        }
-        .car{
-         
-          width: 80%;
-         
-          float: right;
-        }
-        
-        span {
-          color: darkslategrey;
-          /* font-size: 14px;*/
-          font-family: 'Roboto', sans-serif;
-          /* font-weight: 900; */
-          /* font-size: 80px; */
-          
-        }
-        
-       
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .row {
+    align-content: center;
+    margin-top: 12%;
+  }
+
+  .card {
+    padding: 0%;
+    margin: 5%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+</style>
 
 
-
-
-        </style>
-
-
-<div style="background-color: white;">
-
-  <div style="margin-bottom: 1%; margin-left: 15%;">
-  <div class="avatar mx-auto white"><img src="https://media-exp1.licdn.com/dms/image/C5103AQGYzZ6pgFqXSw/profile-displayphoto-shrink_200_200/0?e=1593043200&v=beta&t=hxYZ75Y_vG-zy1vTogA8OcGj_4Z-Oq6TYpkpSVTme1I"
-    alt="avatar mx-auto white" class="rounded-circle img-fluid" style="width: 8%;  float: left;        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-">
-</div>
-  <a href="#blog" style="margin-left:5% " > <span class="top"  >Data Science With Harshit</span></a>
-</div>
-
-
-  <!-- Grid row -->
-<div class="row"  id="blog">
-
-    <!-- Grid column -->
-    <!-- <div class="col-md-6 mt-md-0 mt-4"> -->
-
- <!-- Card -->
-<div class="card card-image"
-style="background-image: url(../assets/img/python.png);
-      ">
-
-<!-- Content -->
-<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-  <div>
-    <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Data Science</h5>
-    <h3 class="card-title pt-2"><strong>Data Science</strong></h3>
-    
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/p1.html"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn" style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/t1.html"><i class="fas fa-clone left"></i> Tuitorials</a>
-  </div>
-</div>
-</div>
-<!-- </div> -->
-<!-- Card -->
- <!-- Grid column -->
- <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-<!-- Card -->
-<div class="card card-image"
-style="background-image: url(../assets/img/math.jpg);
-   ">
-
-<!-- Content -->
-<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-  <div>
-    <h5 class="pink-text"><i class="fas fa-chart-pie"></i>Mathematics</h5>
-    <h3 class="card-title pt-2"><strong>Mathematics</strong></h3>
- 
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/p2.html"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/t2.html"><i class="fas fa-clone left"></i> Tuitorials</a>
-  </div>
-</div>
-</div>
-</div>
-<!-- </div> -->
-<!-- Card -->
-<div class="row">
- <!-- Grid column -->
- <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-<!-- Card -->
-<div class="card card-image"
-style="background-image: url(../assets/img/py.jpg); background-repeat: no-repeat; background-size: cover;">
-
-<!-- Content -->
-<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-  <div>
-    <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Python</h5>
-    <h3 class="card-title pt-2"><strong>Python</strong></h3>
- 
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/p3.html"><i class="fas fa-clone left"></i> Projects</a>
-      <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/t3.html"><i class="fas fa-clone left"></i> Tuitorials</a>
-  </div>
-</div>
-</div>
-<!-- </div> -->
-<!-- Card -->
-
- <!-- Grid column -->
- <!-- <div class="col-md-6 mt-md-0 mt-3"> -->
-<!-- Card -->
-<div class="card card-image"
-style="background-image: url(../assets/img/ml.jpeg);
-    ">
-
-<!-- Content -->
-<div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-  <div>
-    <h5 class="pink-text"><i class="fas fa-chart-pie"></i> Machine Learning</h5>
-    <h3 class="card-title pt-2"><strong>Machine Learning</strong></h3>
-    
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/p4.html"><i class="fas fa-clone left"></i> Projects</a>
-    <a class="btn " style="background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);" href="/2020/04/21/t4.html"><i class="fas fa-clone left"></i> Tuitorials</a>
-  </div>
-</div>
-</div>
-</div>
-<!-- </div> -->
-
-                
-      
-             
-             
-            
-
-       
-          
-         
-              
-
-
-</div>
-
-
-
-<div class="contact" id="contact" style="margin-top:10% ; bottom: 0%;  background: darkslategrey;">
-    <!-- Footer -->
-<footer class="page-footer " style=" background: darkslategrey">
-
-<!-- Footer Links -->
-<div class="container-fluid text-center text-md-left" style="padding: 1%;">
-
-<!-- Grid row -->
-<div class="row">
-
-<!-- Grid column -->
-<div class="col-md-6 mt-md-0 mt-3">
-
-<!-- Content -->
-<h5 class="text-uppercase"><b>Contact Info</b></h5>
-<p>Here you can use rows and columns to organize your footer content.</p>
-
-</div>
-<!-- Grid column -->
-
-<hr class="clearfix w-100 d-md-none pb-3">
-
-<!-- Grid column -->
-<div class="col-md-3 mb-md-0 mb-3">
-
-<!-- Links -->
-<h5 class="text-uppercase">Links</h5>
-
-<ul class="list-unstyled">
-  <li>
-    <a href="#!">Link 1</a>
-  </li>
-  <li>
-    <a href="#!">Link 2</a>
-  </li>
-  <li>
-    <a href="#!">Link 3</a>
-  </li>
-  <li>
-    <a href="#!">Link 4</a>
-  </li>
-</ul>
-
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="col-md-3 mb-md-0 mb-3">
-
-<!-- Links -->
-<h5 class="text-uppercase">Links</h5>
-
-<ul class="list-unstyled">
-  <li>
-    <a href="#!">Link 1</a>
-  </li>
-  <li>
-    <a href="#!">Link 2</a>
-  </li>
-  <li>
-    <a href="#!">Link 3</a>
-  </li>
-  <li>
-    <a href="#!">Link 4</a>
-  </li>
-</ul>
-
- 
-
-
-
-
-</div>
-<!-- Grid column -->
-
-</div>
-<!-- Grid row -->
-
-</div>
-<!-- Footer Links -->
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">
-    <div class="mb-5   flex-center">
-
-        <!-- Facebook -->
-        <a class="fb-ic">
-          <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!-- Twitter -->
-        <a class="tw-ic">
-          <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!-- Google +-->
-        <a class="gplus-ic">
-          <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Linkedin -->
-        <a class="li-ic">
-          <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Instagram-->
-        <a class="ins-ic">
-          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Pinterest-->
-        <a class="pin-ic">
-          <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-        </a>
+<!-- Expertise Section -->
+<section id="block-2" class="expertise-container shadow-box-radius">
+  <div class="expertise-inner">
+    <div class="expertise-content-wrap">
+      <div class="expertise-content-header">
+        <h2>EXPERTISE</h2>
       </div>
-<a href="https://mdbootstrap.com/"> </a>
-</div>
-<!-- Copyright -->
+      <div class="expertise-content-filter">
+        <ul>
+          <li><a>PROGRAMMING</a></li>
+          <li><a>DEEP LEARNING</a></li>
+          <li><a>PROJECTS</a></li>
+          <li><a>APPLIED MATHEMATICS</a></li>
+        </ul>
+      </div>
+      <div class="expertise-content-body">
+        <div class="body--inner">
+          <div class="body--inner-content-wrap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-</footer>
-<!-- Footer -->
+<!-- Home page blogs -->
+<section id="block-3" class="home-blogs-container ">
+  <div class="section-container-top">
+    <div class="container-top-s">
+      <div>
+        <img src="../assets/img/shape-dots.svg" height="100%" />
+      </div>
+    </div>
+    <div class="container-top-m">
+      <div class="container-top-title">
+        <h2>BLOGS</h2>
+      </div>
+    </div>
+    <div class="container-top-e">
+      <div>
+        <p><span>View</span> All Blogs</p>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel Start-->
+  <section id="carousel" class="home-blogs-carousel">
+    <div class="carousel-control carousel-control-l">
+      <div class="prev"></div>
+    </div>
+    <div class="carousel-card">
 
-</div>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script></script>
+      <section class="carousel-card-wrap active-slide">
+        <div class="carousel-card-content">
+          <div class="carousel-card-img">
 
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+          </div>
+          <div class="carousel-card-body">
+            <h2>Blog Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+        </div>
+        <div class="carousel-card-read-more">
+          <p>Read More</p>
+        </div>
+      </section>
+
+      <!-- <section class="carousel-card-wrap">
+        <div class="carousel-card-content">
+          <div class="carousel-card-img">
+
+          </div>
+          <div class="carousel-card-body">
+
+          </div>
+        </div>
+        <div class="carousel-card-read-more"></div>
+      </section> -->
+
+      <!-- <section class="carousel-card-wrap">
+        <div class="carousel-card-content">
+          <div class="carousel-card-img">
+
+          </div>
+          <div class="carousel-card-body">
+
+          </div>
+        </div>
+    </div>
+    <div class="carousel-card-read-more"></div>
+  </section> -->
+    </div>
+    <div class="carousel-control carousel-control-r">
+      <div class="next">
+
+      </div>
+    </div>
+  </section>
+  <!-- Carousel End -->
+</section>
+<!-- Home page blogs END -->
+
+<!-- Podcasts -->
+
+<section id="block-4" class="shadow-box-radius">
+  <div class="section-container-top">
+    <div class="container-top-s">
+    </div>
+    <div class="container-top-m">
+      <div class="container-top-title">
+        <h2>PODCASTS</h2>
+      </div>
+    </div>
+    <div class="container-top-e">
+      <div>
+        <p><span>View</span> All Blogs</p>
+      </div>
+    </div>
+  </div>
+  <section class="home-podcast-container">
+    <div class="home-podcast-inner">
+      <div class="home-podcast-cards-holder">
+        <div class="cards-holder-inner">
+          <ul class="card-flex-row">
+            <li class="card-flex-column">
+              <div class="card-img"></div>
+              <div class="card-footer">
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="home-podcast-cards-control">
+
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- Podcasts END -->
+
+<!-- WORKING PARTNERS -->
+
+<section id="block-5" class="shadow-box-radius">
+  <div class="section-container-top">
+    <div class="container-top-s">
+    </div>
+    <div class="container-top-m">
+      <div class="container-top-title">
+        <h2>WORKING PARTNERS</h2>
+      </div>
+    </div>
+  </div>
+  <section class="working-partners-container">
+    <div class="working-partners-grid">
+      <div class="openclassrooms" ><img src="../assets/img/openclassrooms.svg"/></div>
+      <div class="coding-ninja" ><img src="../assets/img/codingninja.svg"/></div>
+      <div class="medium" ><img src="../assets/img/medium.svg"/></div>
+      <div class="oreilly" ><img src="../assets/img/oreilly.svg"/></div>
+      <div class="udacity" ><img src="../assets/img/udacity.svg"/></div>
+      <div class="protor-exams" ><img src="../assets/img/proctorexam.svg"/></div>
+      <div class="towards-data-science" ><img src="../assets/img/towardsdatascience.svg"/></div>
+    </div>
+  </section>
+</section>
+
+<!-- WORKING PARTNERS END -->
+
+  <!-- FOOTER -- >
+<div class="contact" id="contact" style=" bottom: 0%;  ">
+    <!-- Footer -->
+  <footer>
+
+  </footer>
+  <!-- Footer -->
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="../assets/js/nav.js"></script>
+  <script>
+    document.getElementById('contact').style.display = 'none';
+    function display() {
+      document.getElementById('contact').style.display = 'block';
+    }
+
+    // object-fit polyfill run
+    objectFitImages();
+
+    /* init Jarallax */
+    jarallax(document.querySelectorAll('.jarallax'));
+
+    jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+      keepImg: true,
+    });
+  </script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,27 @@
+#block-5 {
+    position: relative;
+    height: 575px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.working-partners-container {
+    padding-top: 3rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.working-partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.udacity {}
+
+.protor-exams {}
+
+.towards-data-science {}

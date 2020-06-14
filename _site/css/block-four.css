@@ -1,0 +1,44 @@
+#block-4 {
+    position: relative;
+    height: 783px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 6em;
+}
+
+.home-podcast-container {
+    /* TODO */
+    /* position: absolute; */
+    width: 95%;
+    height: 80%;
+    background: #c7c7c7;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.home-podcast-container .home-podcast-inner {
+    width: 95%;
+    height: 100%;
+    background: #7d7d7d;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.home-podcast-cards-holder {
+    width: 100%;
+    height: 90%;
+    background: #616161;
+}
+
+.home-podcast-cards-control {
+    width: 100%;
+    height: 10%;
+    background: #323232;
+}
+
+.home-podcast-cards-holder .cards-holder-inner {
+    padding: 15px;
+    background-color: #e9e9e9;
+    height: 100%;
+}

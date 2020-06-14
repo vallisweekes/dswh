@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#block-3 {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.section-container-top {
+    display: flex;
+    width: 100%;
+    height: 125px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.section-container-top .container-top-s {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.section-container-top .container-top-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+
+
+.section-container-top .container-top-e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.home-blogs-carousel {
+    display: flex;
+    width: 80%;
+    height: 55%;
+    margin: 0 auto;
+
+}
+
+.carousel-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+}
+
+.carousel-control-l {
+    align-items: flex-start;
+}
+
+.carousel-control-r {
+    align-items: flex-end;
+}
+
+.carousel-control-l .prev {
+    width: 46px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.carousel-control-r .next {
+    width: 46px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.carousel-card {
+    max-width: 1015px;
+    width: 90%;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.carousel-card-wrap {
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+}
+
+.carousel-card-wrap.active-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-card-content {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+
+
+.carousel-card-img {
+    width: 40%;
+    max-width: 360px;
+    height: 100%;
+    max-width: 285px;
+    background: orange;
+    /* background: #FFFFFF; */
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.carousel-card-body {
+    width: 50%;
+    height: 100%;
+}
+
+.carousel-card-body h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-variant: small-caps;
+    color: #01A6FF;
+    font-style: normal;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.carousel-card-body p {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+/* .active-slide {} */
+
+/* .carousel-card-wrap .carousel-card-wrap .active {
+    display: flex;
+    flex-direction: column;
+    background: #15f581;
+} */
+
+.carousel-card-read-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    color: #FF9000;
+
+}

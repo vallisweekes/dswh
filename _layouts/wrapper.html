@@ -1,264 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <!-- Font Awesome -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- Font Awesome -->
 
-    <link rel="icon" href="/dswh/assets/img/LOGO_NEW.png" type="image/gif" height=30>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+  <link rel="icon" href="/dswh/assets/img/LOGO_NEW.png" type="image/gif" height=30>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 
-    <title>Harshit Tyagi</title>
-     <style>
-     
-      body{
-        margin: 0;
-        padding: 0;
-        height :100%;
+  <link rel="stylesheet" href="../css/styles.css">
 
-        overflow-x: hidden; 
-      }
-
-      html,
-    body,
-    header,
-    .carousel {
-      height: 100%;
+  <title>Harshit Tyagi</title>
+  <style>
+    * {
+      box-sizing: border-box;
     }
 
-    @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
-            }
-        }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-size: 16px;
+      background: #F7F8FC;
+      overflow-x: hidden;
+    }
 
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
-      
-    </style>
+    html,
+    body {
+      height: 100%;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
+
 <body>
-   
-         <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-      <div class="container">
-  
-        <!-- Brand -->
-        <a class="navbar-brand" href="" >
-          <strong><img id="headimg" height=80 src="/dswh/assets/img/LOGO_NEW.png" alt=""></strong>
-        </a>
-  
-        <!-- Collapse -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-          <!-- Left -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/dswh">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/dswh/about" >About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/dswh/#blog">Posts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact" onclick="display()">Contact</a>
-            </li>
-          </ul>
-  
-          <!-- Right -->
-          <ul class="navbar-nav nav-flex-icons">
-            <li class="nav-item">
-              <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
-                target="_blank">
-                <i class="fab fa-github mr-2"></i> GitHub
-              </a>
-            </li>
-          </ul>
-  
+
+
+  <header>
+
+    <!-- Navivation bar -->
+
+    <nav class="navbar--container">
+      <section class="navbar--container-inner">
+        <div class="navbar--logo">
+          <div class="navbar--logo-face"><img src="../assets/img/logoface.svg" /></div>
+          <div class="navbar--logo-dot"></div>
+          <div class="navbar--logo-lettering"><img src="../assets/img/logo-words.svg" /></div>
         </div>
-  
-      </div>
+
+        <div class="navbar--links-holder">
+          <ul class="navbar--links-flex">
+            <li><a href="#" class="active navbar--links-item">Home</a></li>
+            <li><a href="#" class="navbar--links-item">Blog</a></li>
+            <li><a href="#" class="navbar--links-item">Services</a></li>
+            <li><a href="#" class="navbar--links-item">About me</a></li>
+          </ul>
+        </div>
+      </section>
     </nav>
-    <!-- Navbar -->
-  
+
+    <!-- header content -->
+    <section class="header--content">
+      <div class="header--content-wrapper">
+        <div class="header--content-inner">
+          <section class="ct-l">
+            <section class="ct-l-wrapper ">
+              <div class="ct-l-heading">
+                <div class="ct-l-topline"></div>
+                <div>
+                  <h1>Data Science</h1>
+                </div>
+                <h4>WITH HARSHIT TYAGI</h4>
+                <div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="ct-l-min-nav">
+              <div class="ct-l-min-nav-inner">
+                <div class="ct-l-min-nav-content">
+                  <div class="ct-l-min-nav-inner">
+                    <ul class="flex-nav-row">
+                      <li>
+                        <div>BLOG</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PODCASTS</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PARTNERS</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="ct-l-min-vert">
+                  <div class="ct-l-min-vert-line"></div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="ct-m">
+            <div>
+              <img src="../assets/img/headerObj.svg" width="100%" />
+            </div>
+          </section>
+          <div class="ct-r">
+            <div class="ct-r-vert-one"></div>
+            <div class="ct-r-vert-two">
+              <div class="ct-r-vert-twitter"><img src="../assets/img/twitter.svg" alt=""></div>
+              <div class="ct-r-vert-youtube"><img src="../assets/img/youtube.svg" /></div>
+              <div class="ct-r-vert-instagram"><img src="../assets/img/instagram.svg" /></div>
+            </div>
+            <div class="ct-r-vert-three"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Navbar -->
+
+  <!-- Header-->
 
 
-    {{content}}
 
 
+
+
+  {{content}}
+
+  <!-- FOOTER -- >
 <div class="contact" id="contact" style=" bottom: 0%;  ">
     <!-- Footer -->
-<footer class="page-footer" style=" color: white">
+  <footer>
 
-<!-- Footer Links -->
-<div class="container-fluid text-center text-md-left" style="padding: 1%;">
+  </footer>
+  <!-- Footer -->
 
-<!-- Grid row -->
-<div class="row">
+  </div>
 
-<!-- Grid column -->
-<div class="col-md-6 mt-md-0 mt-3">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-<!-- Content -->
-<h5 class="text-uppercase"><b>Contact Info</b></h5>
-<p>Here you can use rows and columns to organize your footer content.</p>
+  <script src="../assets/js/nav.js"></script>
+  <script>
+    document.getElementById('contact').style.display = 'none';
+    function display() {
+      document.getElementById('contact').style.display = 'block';
+    }
 
-</div>
-<!-- Grid column -->
+    // object-fit polyfill run
+    objectFitImages();
 
-<hr class="clearfix w-100 d-md-none pb-3">
+    /* init Jarallax */
+    jarallax(document.querySelectorAll('.jarallax'));
 
-<!-- Grid column -->
-<div class="col-md-3 mb-md-0 mb-3">
+    jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+      keepImg: true,
+    });
+  </script>
 
-<!-- Links -->
-<h5 class="text-uppercase">Links</h5>
-
-<ul class="list-unstyled">
-  <li>
-    <a href="#!">Link 1</a>
-  </li>
-  <li>
-    <a href="#!">Link 2</a>
-  </li>
-  <li>
-    <a href="#!">Link 3</a>
-  </li>
-  <li>
-    <a href="#!">Link 4</a>
-  </li>
-</ul>
-
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="col-md-3 mb-md-0 mb-3">
-
-<!-- Links -->
-<h5 class="text-uppercase">Links</h5>
-
-<ul class="list-unstyled">
-  <li>
-    <a href="#!">Link 1</a>
-  </li>
-  <li>
-    <a href="#!">Link 2</a>
-  </li>
-  <li>
-    <a href="#!">Link 3</a>
-  </li>
-  <li>
-    <a href="#!">Link 4</a>
-  </li>
-</ul>
-
- 
-
-
-
-
-</div>
-<!-- Grid column -->
-
-</div>
-<!-- Grid row -->
-
-</div>
-<!-- Footer Links -->
-
-<!-- Copyright -->
-<div class="footer-copyright text-center py-3">
-    <div class="mb-5   flex-center">
-
-        <!-- Facebook -->
-        <a class="fb-ic">
-          <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!-- Twitter -->
-        <a class="tw-ic">
-          <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!-- Google +-->
-        <a class="gplus-ic">
-          <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Linkedin -->
-        <a class="li-ic">
-          <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Instagram-->
-        <a class="ins-ic">
-          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-        </a>
-        <!--Pinterest-->
-        <a class="pin-ic">
-          <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-        </a>
-      </div>
-<a href="https://mdbootstrap.com/"> </a>
-</div>
-<!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-
-</div>
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script>
-   document.getElementById('contact').style.display='none';
-  function display(){
-    document.getElementById('contact').style.display='block';
-  }
-
-  // object-fit polyfill run
-objectFitImages();
-
-/* init Jarallax */
-jarallax(document.querySelectorAll('.jarallax'));
-
-jarallax(document.querySelectorAll('.jarallax-keep-img'), {
-    keepImg: true,
-});
-</script>
-
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
 </body>
+
 </html>

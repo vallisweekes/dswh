@@ -1,80 +1,234 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>My title | Your awesome title</title>
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="My title" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Some Content" />
-<meta property="og:description" content="Some Content" />
-<link rel="canonical" href="http://localhost:4000/dswh/myfirst" />
-<meta property="og:url" content="http://localhost:4000/dswh/myfirst" />
-<meta property="og:site_name" content="Your awesome title" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-04-18T00:00:00+05:30" />
-<script type="application/ld+json">
-{"description":"Some Content","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dswh/myfirst"},"@type":"BlogPosting","url":"http://localhost:4000/dswh/myfirst","headline":"My title","dateModified":"2020-04-18T00:00:00+05:30","datePublished":"2020-04-18T00:00:00+05:30","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/dswh/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/dswh/feed.xml" title="Your awesome title" /></head>
-<body><header class="site-header" role="banner">
+<html lang="en">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/dswh/">Your awesome title</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- Font Awesome -->
 
-        <div class="trigger"><a class="page-link" href="/dswh/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <link rel="icon" href="/dswh/assets/img/LOGO_NEW.png" type="image/gif" height=30>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">My title</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2020-04-18T00:00:00+05:30" itemprop="datePublished">Apr 18, 2020
-      </time></p>
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <title>Harshit Tyagi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-size: 16px;
+      background: #F7F8FC;
+      overflow-x: hidden;
+    }
+
+    html,
+    body {
+      height: 100%;
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+
+    <!-- Navivation bar -->
+
+    <nav class="navbar--container">
+      <section class="navbar--container-inner">
+        <div class="navbar--logo">
+          <div class="navbar--logo-face"><img src="../assets/img/logoface.svg" /></div>
+          <div class="navbar--logo-dot"></div>
+          <div class="navbar--logo-lettering"><img src="../assets/img/logo-words.svg" /></div>
+        </div>
+
+        <div class="navbar--links-holder">
+          <ul class="navbar--links-flex">
+            <li><a href="#" class="active navbar--links-item">Home</a></li>
+            <li><a href="#" class="navbar--links-item">Blog</a></li>
+            <li><a href="#" class="navbar--links-item">Services</a></li>
+            <li><a href="#" class="navbar--links-item">About me</a></li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+
+    <!-- header content -->
+    <section class="header--content">
+      <div class="header--content-wrapper">
+        <div class="header--content-inner">
+          <section class="ct-l">
+            <section class="ct-l-wrapper ">
+              <div class="ct-l-heading">
+                <div class="ct-l-topline"></div>
+                <div>
+                  <h1>Data Science</h1>
+                </div>
+                <h4>WITH HARSHIT TYAGI</h4>
+                <div>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="ct-l-min-nav">
+              <div class="ct-l-min-nav-inner">
+                <div class="ct-l-min-nav-content">
+                  <div class="ct-l-min-nav-inner">
+                    <ul class="flex-nav-row">
+                      <li>
+                        <div>BLOG</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PODCASTS</div>
+                        <div class="vl"></div>
+                      </li>
+                      <li>
+                        <div>PARTNERS</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="ct-l-min-vert">
+                  <div class="ct-l-min-vert-line"></div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="ct-m">
+            <div>
+              <img src="../assets/img/headerObj.svg" width="100%" />
+            </div>
+          </section>
+          <div class="ct-r">
+            <div class="ct-r-vert-one"></div>
+            <div class="ct-r-vert-two">
+              <div class="ct-r-vert-twitter"><img src="../assets/img/twitter.svg" alt=""></div>
+              <div class="ct-r-vert-youtube"><img src="../assets/img/youtube.svg" /></div>
+              <div class="ct-r-vert-instagram"><img src="../assets/img/instagram.svg" /></div>
+            </div>
+            <div class="ct-r-vert-three"></div>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
+  <!-- Navbar -->
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Some Content</p>
+  <!-- Header-->
 
-  </div><a class="u-url" href="/dswh/myfirst" hidden></a>
-</article>
 
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/dswh/"></data>
 
-  <div class="wrapper">
 
-    <h2 class="footer-heading">Your awesome title</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/dswh/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/dswh/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+  <div class="container" style="margin-top: 10%;">
+    <h1>My title </h1>
+    
+    <div class="content"><p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
 </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
+    <div class="links">
+        <ul><li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
     </div>
+</div>
+
+
+  <!-- FOOTER -- >
+<div class="contact" id="contact" style=" bottom: 0%;  ">
+    <!-- Footer -->
+  <footer>
+
+  </footer>
+  <!-- Footer -->
 
   </div>
 
-</footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="../assets/js/nav.js"></script>
+  <script>
+    document.getElementById('contact').style.display = 'none';
+    function display() {
+      document.getElementById('contact').style.display = 'block';
+    }
+
+    // object-fit polyfill run
+    objectFitImages();
+
+    /* init Jarallax */
+    jarallax(document.querySelectorAll('.jarallax'));
+
+    jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+      keepImg: true,
+    });
+  </script>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
 </body>
 
 </html>
