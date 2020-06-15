@@ -64,6 +64,12 @@
     padding-right: 10px;
 }
 
+.footer-social-media-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
 .footer-social-media-icon img {
     display: inline-block;
 }
