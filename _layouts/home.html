@@ -34,29 +34,8 @@ layout: 'wrapper'
 
 
 <!-- Expertise Section -->
-<section id="block-2" class="expertise-container shadow-box-radius">
-  <div class="expertise-inner">
-    <div class="expertise-objects"><img src="../assets/img/spo"/></div>
-    <div class="expertise-content-wrap">
-      <div class="expertise-content-header">
-        <h2>EXPERTISE</h2>
-      </div>
-      <div class="expertise-content-filter">
-        <ul>
-          <li><a>PROGRAMMING</a></li>
-          <li><a>DEEP LEARNING</a></li>
-          <li><a>PROJECTS</a></li>
-          <li><a>APPLIED MATHEMATICS</a></li>
-        </ul>
-      </div>
-      <div class="expertise-content-body">
-        <div class="body--inner">
-          <div class="body--inner-content-wrap"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include expertise.html%}
+<!-- Expertise Section -->
 
 <!-- Home page blogs -->
 <section id="block-3" class="home-blogs-container ">
@@ -309,29 +288,7 @@ layout: 'wrapper'
 
 
 <!-- ABOUT ME -->
-<section id="block-7" class="about-me-container">
-  <div class="about-me-wrapper">
-
-    <div class="about-me-inner">
-      <div class="about-me-text">
-        <p>ABOUT ME</p>
-      </div>
-      <div class="about-me-content">
-        <div style="position: absolute; top: -11.5em; right: -22em; z-index: 0">
-          <img src="../assets/img/harshit.svg" width="565px" style="display: none;" />
-        </div>
-        <div class="about-me-content-body">
-          <p>Hi I'm</p>
-          <h3>HARSHIT TYAGI</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{% include about-me.html%}
 <!-- ABOUT ME END -->
 
 

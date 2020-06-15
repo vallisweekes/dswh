@@ -8,15 +8,15 @@
     <!-- Font Awesome -->
 
     <link rel="icon" href="/dswh/assets/img/LOGO_NEW.png" type="image/gif" height=30>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet"> 
-
-<link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/styles.css">
 
     <title>Harshit Tyagi</title>
+     
      <style>
      *{
        box-sizing: border-box;
@@ -50,24 +50,7 @@
 
     <!-- Navivation bar -->
 
-  <nav class="navbar--container">
-   <section class="navbar--container-inner">
-    <div class="navbar--logo">
-      <div class="navbar--logo-face"><img src="../assets/img/logoface.svg"/></div>
-      <div class="navbar--logo-dot"></div>
-      <div class="navbar--logo-lettering"><img src="../assets/img/logo-words.svg"/></div>
-    </div>
-   
-    <div class="navbar--links-holder">
-      <ul class="navbar--links-flex">
-        <li><a href="#" class="active navbar--links-item">Home</a></li>
-        <li><a href="#" class="navbar--links-item">Blog</a></li>
-        <li><a href="#" class="navbar--links-item">Services</a></li>
-        <li><a href="#" class="navbar--links-item">About me</a></li>
-      </ul>
-    </div>
-   </section>
-  </nav>
+  {% include nav.html %}
 
   <!-- header content -->
   <section class="header--content">
@@ -124,87 +107,17 @@
   </section>
  </header>
     <!-- Navbar -->
-
     <!-- Header-->
 
   
     
-  
 
 
     {{content}}
 
 
-
   <!-- FOOTER START -->
-  <footer id="footer">
-    <section class="footer-container">
-      <div class="footer-shape-container">
-        <div class="footer-shape">
-          <img src="../assets/img/footer-shape.svg" />
-        </div>
-      </div>
-      <div class="footer-content">
-        <div class="footer-content-body">
-          <section class="footer-content-inner">
-            <div class="footer-links">
-              <ul class="footer-links flex-nav-column contact-me">
-                <li>
-                  <h3>Contact Me</h3>
-                  <div class="footer-contact">
-                    <div>
-                      <img src="../assets/img/mail.svg" />
-                    </div>
-                    <p>harshit.bvcoe@gmail.com</p>
-                  </div>
-                  <div class="footer-contact">
-                    <div>
-                      <img src="../assets/img/phone.svg" />
-                    </div>
-                    <p>9582092250</p>
-                  </div>
-                </li>
-                <li>
-                  <h3>Information</h3>
-                  <ul>
-                    <li><a>About me</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Courses</a></li>
-                    <li><a>Podcasts</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <h3>Helpful Links</h3>
-                  <ul>
-                    <li><a>Services</a></li>
-                    <li><a>Supports</a></li>
-                    <li><a>Terms & Conditions</a></li>
-                    <li><a>Privacy Policy</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <section class="footer-social-media">
-              <h3>Social Media</h3>
-              <div class="footer-social-media-icon">
-                <img src="../assets/img/twitter-black.svg" />
-                <img src="../assets/img/linkedin-black.svg" />
-                <img src="../assets/img/youtube-black.svg" />
-                <img src="../assets/img/facebook-black.svg" />
-                <img src="../assets/img/instagram-black.svg" />
-                <img src="../assets/img/whatsapp-black.svg" />
-              </div>
-            </section>
-            <div class="footer-back-to-top">
-              <div class="back-to-top-button" role="button">
-                <img src="../assets/img/arrow-left.svg" />
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-  </footer>
+  {% include footer.html%}
   <!-- FOOTER END -->
 
 
@@ -215,7 +128,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<script src="../assets/js/nav.js"></script>
+<script src="../assets/js/main.js"></script>
 <script>
    document.getElementById('contact').style.display='none';
   function display(){
