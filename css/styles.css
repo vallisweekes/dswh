@@ -7,12 +7,27 @@ a {
     display: block;
     color: #191919;
     outline: none;
+    cursor: pointer;
+    display: inline-block;
 }
 
 header {
 
     height: 600px;
     background: #F7F8FC;
+}
+
+
+h3 {
+    color: #01A6FF;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -101,6 +116,7 @@ header {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
 }
 
@@ -201,8 +217,13 @@ ul.flex-nav-row {
     font-family: 'Montserrat', sans-serif;
     color: #FF9000;
     font-weight: 600;
+    height: 50px;
     line-height: 20px;
 }
+
+/* ul.flex-nav-row li {
+    height: inherit;
+} */
 
 .ct-r {
     position: absolute;

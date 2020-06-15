@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+#block-7 {
+    position: relative;
+    height: 600px;
+    background: #2B2B2B;
+    width: 100%;
+    margin-bottom: 6em;
+    background-image: url('../assets/img/aboutme-objects1.svg');
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+.about-me-wrapper {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.about-me-inner {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    align-items: center;
+}
+
+.about-me-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: inherit;
+    padding-top: 1.5rem;
+
+}
+
+div.about-me-text p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5rem;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    -webkit-text-stroke: 1px white;
+    color: #2B2B2B;
+    font-weight: 900;
+    /* color: white; */
+}
+
+.about-me-content {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 70%;
+    height: inherit;
+}
+
+.about-me-content-body {
+    position: relative;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 100%;
+    height: inherit;
+    padding: 4rem;
+}
+
+.about-me-content-body p {
+    line-height: 1.5;
+}
+
+.about-me-content-body h3 {
+    padding-bottom: 1.5rem;
+}
